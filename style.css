@@ -82,6 +82,10 @@ section p{
     text-decoration: none;
     border-color: aqua;
 }
+a, .btn{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
 
 .btn:hover{
     background-color: aqua;
@@ -119,4 +123,9 @@ section p{
         padding: 0.6rem 1.5rem;
         font-size: 4vw;
     }
+    a, .btn{
+        outline: none;
+    -webkit-tap-highlight-color: transparent;
+    }
+
 }
