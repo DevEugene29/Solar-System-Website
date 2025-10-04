@@ -186,15 +186,17 @@ a, .btn{
     }
 
     .logo{
-        font-size: 4rem;
+        font-size: 10vw;
     }
 
     .links{
         flex-direction: row;
         gap: 1rem;
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 3.5vw;
         gap: 3rem;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .insect{
@@ -279,18 +281,18 @@ a, .btn{
         text-align: center;
         color: white;
         background-color: black;
-        padding: 2vh;
+        padding: 2vw;
         margin-top: 8vh;
-        font-size: 0.7rem;
+        font-size: 2.5vw;
     }
 
     .footin{
         text-align: center;
         color: white;
         background-color: black;
-        padding: 2vh;
+        padding: 2vw;
         margin-top: -4.8vh ;
         width: 100%;
-        font-size: 0.7rem;
+        font-size: 2.5vw;
     }
 }
